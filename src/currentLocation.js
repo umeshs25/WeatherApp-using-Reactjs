@@ -123,7 +123,7 @@ class Weather extends React.Component {
       case "Haze":
         this.setState({ icon: "CLEAR_DAY" });
         break;
-      case "Clous":
+      case "Clouds":
         this.setState({ icon: "CLOUDY" });
         break;
       case "Rain":
